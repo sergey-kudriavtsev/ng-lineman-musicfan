@@ -1,9 +1,9 @@
 <<<<<<< HEAD
-# A Lineman JS Template using Angular
+# Example app "Favorite of Music Groups " on Lineman(Bower) JS Template using Angular
 
 [![Build Status](https://travis-ci.org/linemanjs/lineman-angular-template.png?branch=master)](https://travis-ci.org/linemanjs/lineman-angular-template)
 
-This is a project template for Angular JS applications using [Lineman](http://www.linemanjs.com).
+This is a project template for Angular(Bootstrup) JS applications using [Lineman(Bower)](http://www.linemanjs.com).
 
 It includes the following features:
 
@@ -20,10 +20,12 @@ It includes the following features:
 
 # Instructions
 
-1. `git clone https://github.com/linemanjs/lineman-angular-template.git my-lineman-app`
+1. `git clone https://github.com/sergey-kudriavtsev/ng-lineman-musicfan.git my-lineman-app`
 2. `cd my-lineman-app`
 3. `sudo npm install -g lineman`
-4. `npm install`
+4. `sudo npm install -g bower`
+5. `npm install`
+6. `bower install`
 5. `lineman run`
 6. open your web browser to localhost:8000
 
