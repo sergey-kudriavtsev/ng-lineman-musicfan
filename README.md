@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Example app "Favorite of Music Groups " on Lineman(Bower) JS Template using Angular
 
 [![Build Status](https://travis-ci.org/linemanjs/lineman-angular-template.png?branch=master)](https://travis-ci.org/linemanjs/lineman-angular-template)
