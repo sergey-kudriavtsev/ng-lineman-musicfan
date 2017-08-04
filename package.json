@@ -12,6 +12,7 @@
     "jasmine-given": "^2.6.2",
     "lineman": "^0.34.0",
     "lineman-angular": "^0.3.0",
+    "lineman-bower": "0.0.5",
     "lineman-less": "0.0.1",
     "protractor": "^1.4.0"
   },

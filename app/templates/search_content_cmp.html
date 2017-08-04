@@ -1,0 +1,18 @@
+<div >
+
+  <div ng-repeat="item in q.data " class="group">
+    <div class="img">
+      <img src="{{item.image[3]['#text']}}" >
+    </div>
+    <div class="metal">
+      <h3>{{item.name}}</h3>
+      <p>{{item.listeners}} :listeners</p>
+      <button  ng-click="addFavorites(item)"><a>Add to favorites</a></button>
+    </div>
+  </div>
+<!-- data-dismiss="modal" -->
+
+  <div class="button "   >
+   <b><a  class="button" ng-click="nexPage()" /> Load more</a></b>
+  </div>
+</div>

@@ -23,6 +23,8 @@ module.exports = function(lineman) {
     //   }
     // }
 
+
+
     server: {
       pushState: true
       // API Proxying
@@ -37,7 +39,8 @@ module.exports = function(lineman) {
       //   host: 'localhost',
       //   port: 3000
       // }
-    }
+    },
+    livereload: true
 
     // Sass
     //
@@ -54,6 +57,7 @@ module.exports = function(lineman) {
     // via grunt-asset-fingerprint
     //
     // enableAssetFingerprint: true
+
 
   };
 };

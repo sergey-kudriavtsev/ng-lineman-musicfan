@@ -22,7 +22,7 @@ module.exports = {
       res.json({ message: 'logging out!'});
     });
 
-    app.get('/books', function (req, res) {
+    app.get('/api/my_favorite', function (req, res) {
       res.json([
         {title: 'Great Expectations', author: 'Dickens'},
         {title: 'Foundation Series', author: 'Asimov'},

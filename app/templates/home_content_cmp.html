@@ -1,0 +1,40 @@
+<div class="group-block" ng-controller="FavoriteContentController" >
+
+
+  <div class="item-block">
+
+     <div class="col-xs-12 col-sm-6 col-lg-4 " data-toggle="modal" data-target="#search" >
+      <div class="card" >
+       <div>
+       <span class="glyphicon glyphicon-plus" style="padding-left: 43%;padding-top: 18%;padding-bottom: 12%;font-size: 50px;
+        color: #afc4ce;">
+       </span>
+       <h4><b><a href="#search">Add new favorite band</a></b></h4>
+      </div>
+      </div>
+     </div>
+
+
+
+     <div ng-repeat="item in data " class="col-xs-12 col-sm-6 col-lg-4 " >
+      <div class="card">
+       <div class="img-group" >
+         <img src="{{item.image[3]['#text']}}" alt="metallica" width="89%";>
+       </div>
+       <div class="name-group">
+        <h3>{{item.name}}</h3>
+       </div>
+       <p>{{item.listeners}} :listeners</p>
+       <div class="text">
+        <p>
+         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+        </p>
+       </div>
+       <div ng-click="removeFavorites(item)" class="remove">
+        <b><a href="#">REMOVE</a></b>
+       </div>
+      </div>
+     </div>
+
+ </div>
+</div>

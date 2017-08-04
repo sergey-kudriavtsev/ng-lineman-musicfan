@@ -1,0 +1,235 @@
+.all{
+ background-color: #eeeeee;
+ }
+
+ .group-block{
+ display: inline-block;
+ width: 100%;
+ padding: 0;
+ margin: 0;
+ vertical-align: baseline;
+ margin-top:60px;
+ }
+
+.item-block{
+ display: block;
+ float: left;
+ vertical-align: top;
+ }
+
+.card{
+ height: 224px;
+ background-color: white;
+ border: none;
+ border-radius: 2px;
+ overflow: hidden;
+ box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2), 0 1px 3px 0 rgba(0,0,0,0.14), 2px 1px 3px -1px rgba(0,0,0,0.12);
+ padding: 1px;
+ margin-top: 15px;
+ margin: 10px 5px;
+ position: relative;
+}
+
+.navbar-default{
+background-color: #617d8a;
+}
+
+.navbar-default .navbar-nav>li>a,.navbar-default .navbar-brand{
+color:#fff;
+}
+
+.active{
+background-color: #40525a;
+}
+
+/* Цвет и фон активного пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-nav >li> .active > a,
+.navbar-default .navbar-nav >li> .active > a:hover,
+.navbar-default .navbar-nav >li> .active > a:focus {
+ color: #555;
+ background-color: #E7E7E7;
+}
+
+.modal-dialog {
+width: 98%;
+margin: 30px auto;
+}
+
+h4 {
+font-size: 18px;
+text-align: center;
+margin-top: 5px;
+margin-bottom: 25px;
+}
+
+a {
+color: #617d8a;
+text-decoration: none;
+}
+
+a:hover{
+text-decoration: none;
+color:red;
+}
+
+
+p {
+ margin: 0 0 10px;
+ font-size: 13px;
+ margin-bottom: 10px;
+}
+
+.input-group {
+   position: relative;
+   display: table;
+   border-collapse: separate;
+   margin-left: 2%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   width: 90%;
+   float: left
+  }
+
+.input-group-addon:first-child {
+border-right: 0;
+box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2);
+}
+
+.input-group .form-control {
+position: relative;
+z-index: 2;
+width: 98%;
+margin-bottom: 0;
+box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2);
+}
+
+.group img {
+vertical-align: middle;
+width: 120px;
+float: left;
+margin-right: 5px;
+}
+
+.group {
+background-color: #ffffff;
+height: 147px;
+margin: 0 2%;
+border: 1px solid #ddd;
+border-radius: 4px;
+margin-top: 20px;
+}
+
+.metal {
+margin-left: 11%;
+height: 100%;
+padding-top: 1px;
+}
+
+.row {
+width: 96%;
+margin: 2%;
+background-color: blue;
+}
+
+button {
+overflow: visible;
+margin-top: 25px;
+background-color: #159588;
+border: none;
+color: white;
+border: 1px solid #ddd;
+padding: 5px 10px;
+}
+
+button a:hover{
+color: red;
+}
+
+button a{
+color: #fff;
+}
+
+.img-group{
+float: left;
+width: 50%;
+}
+
+.remove{
+ width: 200px;
+ height: 30px;
+margin-left: 80%;
+}
+
+.remove a {
+color: red;
+text-decoration :none;
+}
+
+.remove a:hover {
+color: red;
+}
+
+.button {
+text-align:center;
+font-size:16px;
+padding:10px 30px;
+color:#617d8a;
+background-color:#ffffff;
+border-radius:0px;
+border: none;
+margin-bottom:1%;
+text-decoration: none;
+}
+
+.button a:hover {
+color:red;
+text-decoration: none;
+}
+
+.col-lg-4{
+ position: relative;
+ min-height: 1px;
+ padding-right:0px;
+ padding-left:0px;
+}
+
+.img-group{
+height: 200px;
+ width: 45%;
+ float: left;
+ position: relative;
+ margin: 5px;
+}
+
+.name-group{
+ height: 40px;
+}
+
+.text{
+ text-overflow: clip;
+ overflow:auto;
+ width: 50%;
+ height: 115px;
+ margin-bottom:20px;
+ }
+
+
+ .close {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+  margin-top: 2%;
+  margin-right: 3%;
+  float: right;
+}
+
+
+.form{
+  margin-bottom: 40px;
+  width: 100%;
+  height: 40px;
+}
