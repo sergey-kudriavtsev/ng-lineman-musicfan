@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # A Lineman JS Template using Angular
 
 [![Build Status](https://travis-ci.org/linemanjs/lineman-angular-template.png?branch=master)](https://travis-ci.org/linemanjs/lineman-angular-template)
@@ -71,3 +72,7 @@ module.exports = function(lineman) {
 ```
 
 Hopefully this helps you get up and running with AngularJS!
+=======
+# ng-lineman-musicfan
+Example app of the AnguilarJS on the Lineman assembly (Bower)
+>>>>>>> b7b7fc737f6f2d82a48174e9d5aae5618ef635ae
