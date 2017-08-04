@@ -1,0 +1,22 @@
+{
+  "name": "lineman-angular-template",
+  "description": "test app on angular and lineman",
+  "main": "",
+  "authors": [
+    "sergey kudriavtsev"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/linemanjs/lineman-angular-template",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "/vendor/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "ngstorage": "0.3.11"
+  }
+}
